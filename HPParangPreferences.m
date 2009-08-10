@@ -115,7 +115,8 @@
 		[final replaceOccurrencesOfString:[NSString stringWithFormat:@"$%d", i] withString:rep options:0 range:NSMakeRange(0, [final length])];
 	}
 	
-	return entry == fallbackEntry ? final : [self urlForInput:final];
+	//return entry == fallbackEntry ? final : [self urlForInput:final];
+	return final;
 }
 
 - (NSDictionary*)entryForKey:(NSString*)key {

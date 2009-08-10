@@ -232,8 +232,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -284,7 +282,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -318,12 +316,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>D11A4DE90FDFBC16005B8A86</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HPParangDummy.m</string>
+								<string>HPParangPreferences.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D11A4DEA0FDFBC16005B8A86</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HPParangDummy.m</string>
+										<string>HPParangPreferences.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D16E6DF210306A510080F5A6</string>
+										<string>D1BD231310306C9000DD7C6F</string>
 										<key>history</key>
 										<array>
 											<string>D11A4DEB0FDFBC16005B8A86</string>
@@ -369,12 +369,12 @@
 											<string>D1B7648B0FE7C0890073FA15</string>
 											<string>D16E6DE010306A510080F5A6</string>
 											<string>D16E6DE110306A510080F5A6</string>
-											<string>D16E6DE210306A510080F5A6</string>
 											<string>D16E6DE310306A510080F5A6</string>
 											<string>D16E6DE410306A510080F5A6</string>
-											<string>D16E6DE510306A510080F5A6</string>
 											<string>D16E6DE610306A510080F5A6</string>
-											<string>D16E6DE710306A510080F5A6</string>
+											<string>D1BD230F10306C9000DD7C6F</string>
+											<string>D1BD231010306C9000DD7C6F</string>
+											<string>D16E6DE210306A510080F5A6</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -398,16 +398,8 @@
 											<string>D1B764940FE7C0890073FA15</string>
 											<string>D1B764970FE7C0890073FA15</string>
 											<string>D1B7649A0FE7C0890073FA15</string>
-											<string>D16E6DE810306A510080F5A6</string>
-											<string>D16E6DE910306A510080F5A6</string>
-											<string>D16E6DEA10306A510080F5A6</string>
-											<string>D16E6DEB10306A510080F5A6</string>
-											<string>D16E6DEC10306A510080F5A6</string>
-											<string>D16E6DED10306A510080F5A6</string>
-											<string>D16E6DEE10306A510080F5A6</string>
-											<string>D16E6DEF10306A510080F5A6</string>
-											<string>D16E6DF010306A510080F5A6</string>
-											<string>D16E6DF110306A510080F5A6</string>
+											<string>D1BD231110306C9000DD7C6F</string>
+											<string>D1BD231210306C9000DD7C6F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -530,11 +522,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D16E6DF310306A510080F5A6</string>
+				<string>D1BD231410306C9000DD7C6F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>D16E6DF410306A510080F5A6</string>
+				<string>D1BD231510306C9000DD7C6F</string>
 				<string>D11A4DE90FDFBC16005B8A86</string>
-				<string>D16E6DF510306A510080F5A6</string>
+				<string>D1BD231610306C9000DD7C6F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -718,7 +710,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/hannes/Desktop/Parang/Parang.xcodeproj</string>
+		<string>/Users/hannes/Programming/Parang/Parang.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 119 1920 1059 0 0 1920 1178 </string>
