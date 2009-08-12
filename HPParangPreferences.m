@@ -31,6 +31,7 @@
 						[self entryWithKey:@"g" name:@"Google" url:@"http://www.google.com/search?ie=utf8&oe=utf8&q=$0"],
 						[self entryWithKey:@"gi" name:@"Google Images" url:@"http://images.google.com/images?hl=en&q=$0&gbv=2&aq=f&oq="],
 						[self entryWithKey:@"w" name:@"en.Wikipedia" url:@"http://en.wiktionary.org/w/index.php?title=Special%3ASearch&search=$0&go=go"],
+						[self entryWithKey:@"k" name:@"en.Wiktionary" url:@"http://en.wiktionary.org/w/index.php?title=Special%3ASearch&search=$0&go=go"],
 						[self entryWithKey:@"wa" name:@"Wolfram|Alpha" url:@"http://www.wolframalpha.com/input/?i=$0"],
 						[self entryWithKey:@"imdb" name:@"IMDB" url:@"http://www.imdb.com/find?s=all&q=$0"],
 						nil];
