@@ -10,8 +10,11 @@
 
 + (void)load {
 	if ([[[NSBundle mainBundle] bundleIdentifier] isNotEqualTo:@"com.apple.Safari"]) return;
-		
-	[NSClassFromString(@"BrowserWindowController") interchangeMethod:@selector(goToToolbarLocation:) with:@selector(HPParangPatch_goToToolbarLocation:)];
+	
+	Class BrowserWindowController = NSClassFromString(@"BrowserWindowController");
+    if(!BrowserWindowController) BrowserWindowController = NSClassFromString(@"BrowserWindowControllerMac"); // Safari on Lion
+    
+	[BrowserWindowController interchangeMethod:@selector(goToToolbarLocation:) with:@selector(HPParangPatch_goToToolbarLocation:)];
 	[NSClassFromString(@"BrowserWebView") interchangeMethod:@selector(webView:contextMenuItemsForElement:defaultMenuItems:) with:@selector(HPParangPatch_webView:contextMenuItemsForElement:defaultMenuItems:)];
 	[NSClassFromString(@"ToolbarController") interchangeMethod:@selector(shouldShowGoogleSearch) with:@selector(HPParangPatch_shouldShowGoogleSearch)];
 	
